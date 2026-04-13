@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Javier Matías López</title>
+    <style>
+        /* Reset de estilos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            font-weight: bold;
+            color: #00509e;
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        /* Header */
+        header {
+            background-color: #00509e;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Main Section */
+        section {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .content {
+            width: 80%;
+            max-width: 900px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Secciones del CV */
+        .section-title {
+            margin-top: 20px;
+            border-bottom: 2px solid #00509e;
+            padding-bottom: 5px;
+            font-size: 24px;
+        }
+
+        .info {
+            margin-bottom: 20px;
+        }
+
+        .info p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin: 5px 0;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contact-info a {
+            color: #00509e;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #00aaff;
+        }
+
+        .footer {
+            background-color: #00509e;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fade-in">
+        <h1 style="color: white;">Javier Matías López</h1>
+        <p>CURRICULUM VITAE</p>
+    </header>
+
+    <!-- Main Content -->
+    <section>
+        <div class="content">
+            <!-- Perfil Profesional -->
+            <div class="info fade-in">
+                <h2 class="section-title">Perfil Profesional</h2>
+                <p>Graduado de la Tecnicatura en Análisis de Sistemas, con conocimientos en soporte técnico. Cuento con experiencia en el uso de herramientas informáticas, bases de datos y entornos de desarrollo. Me destaco por la capacidad de aprendizaje, organización, resolución de problemas y trabajo en equipo. Busco una oportunidad para iniciar mi carrera en el área IT, especialmente en roles de soporte técnico o QA Tester.</p>
+            </div>
+
+            <!-- Educación -->
+            <div class="info fade-in">
+                <h2 class="section-title">Educación</h2>
+                <p><strong>Secundario Completo:</strong> Bachiller en Ciencias Sociales, E.E.M. N°15 – Lanús Oeste | Año: 2016</p>
+                <p><strong>Tecnicatura en Análisis de Sistemas:</strong> IFTS N°197 – Avellaneda | Año: 2025 (Título en trámite)</p>
+            </div>
+
+            <!-- Idiomas -->
+            <div class="info fade-in">
+                <h2 class="section-title">Idiomas</h2>
+                <p><strong>Inglés:</strong> Nivel básico</p>
+            </div>
+
+            <!-- Experiencia Laboral -->
+            <div class="info fade-in">
+                <h2 class="section-title">Experiencia Laboral</h2>
+                <p><strong>Ciber Kiosco - Lanús Oeste:</strong> Atención al cliente y resolución de problemas técnicos básicos. Soporte a usuarios en el uso de equipos informáticos. Manejo de caja y control de stock.</p>
+                <p><strong>Logística OCASA - CABA:</strong> Armado y control de pedidos. Organización de tareas y cumplimiento de plazos. Trabajo en equipo en entornos dinámicos.</p>
+            </div>
+
+            <!-- Herramientas -->
+            <div class="info fade-in">
+                <h2 class="section-title">Herramientas</h2>
+                <ul class="skills">
+                    <li>VS Code</li>
+                    <li>Git/GitHub</li>
+                    <li>Postman (pruebas de APIs)</li>
+                    <li>Figma (colaboración en diseño)</li>
+                    <li>Trello (gestión de tareas)</li>
+                    <li>Sistemas operativos: Windows</li>
+                </ul>
+            </div>
+
+            <!-- Conocimientos y Habilidades -->
+            <div class="info fade-in">
+                <h2 class="section-title">Conocimientos y Habilidades</h2>
+                <ul class="skills">
+                    <li>Soporte técnico a usuarios</li>
+                    <li>Diagnóstico y resolución de incidencias</li>
+                    <li>Manejo de sistemas operativos Windows</li>
+                    <li>Introducción a bases de datos (SQL)</li>
+                    <li>Pruebas de software (testing manual básico)</li>
+                    <li>Uso de herramientas de desarrollo y testing</li>
+                    <li>Trabajo en equipo y comunicación efectiva</li>
+                </ul>
+            </div>
+
+            <!-- Información de contacto -->
+            <div class="contact-info fade-in">
+                <p><strong>Email:</strong> <a href="mailto:javi.97.lopez@hotmail.com">javi.97.lopez@hotmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/JaviLopez7" target="_blank">https://github.com/JaviLopez7</a></p>
+                <p><strong>Portafolio:</strong> <a href="https://javilopez7.github.io/Portafolio/" target="_blank">Ver Portafolio</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Javier Matías López - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
